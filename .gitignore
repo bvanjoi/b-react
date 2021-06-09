@@ -1,0 +1,6 @@
+dist/
+node_modules/
+coverage/
+
+yarn-error.log
+package-lock.json
