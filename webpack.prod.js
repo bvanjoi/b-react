@@ -5,6 +5,7 @@ const baseConfig = require('./webpack.base.js');
 
 const prodConfig = {
   mode: 'production',
+  bail: true,
   module: {
     rules: [
       {

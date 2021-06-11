@@ -22,6 +22,8 @@ module.exports = {
     'prettier/prettier': 'error',
     'require-jsdoc': 'off',
     'react/prop-types': 'off',
+    'no-multi-assign': 'error',
+    'arrow-parens': ['error', 'as-needed'],
     'no-console': ['error', { allow: ['error', 'warn', 'info'] }],
     '@typescript-eslint/no-unused-vars': [2, { args: 'none' }],
     '@typescript-eslint/no-var-requires': 0,

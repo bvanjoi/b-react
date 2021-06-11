@@ -9,7 +9,6 @@ const devConfig = {
   devServer: {
     hot: true,
     open: true,
-    port: 9090,
     compress: true,
     historyApiFallback: true,
     contentBase: path.join(__dirname, '/dist'),
