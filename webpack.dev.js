@@ -1,7 +1,7 @@
 const path = require('path');
 const { merge } = require('webpack-merge');
 const portfinder = require('portfinder');
-const baseConfig = require('./webpack.base.js');
+const baseConfig = require('./webpack.common.js');
 
 const devConfig = {
   mode: 'development',

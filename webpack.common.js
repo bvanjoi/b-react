@@ -57,7 +57,7 @@ const baseConfig = {
         ],
       },
       {
-        test: /\.(ttf|eot|woff|woff2)$/,
+        test: /\.(ttf|eot|woff|woff2|png|svg|jpg|jpeg|gif)$/,
         type: 'asset',
         parser: {
           dataUrlCondition: {
@@ -65,7 +65,7 @@ const baseConfig = {
           },
         },
         generator: {
-          filename: 'fonts/[name]_[hash:8].[ext]',
+          filename: 'static/[name]_[hash:8][ext]',
         },
       },
     ],

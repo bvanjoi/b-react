@@ -1,5 +1,21 @@
-dist/
+.history
+.DS_Store
 node_modules/
+dist/
 coverage/
 
-yarn-error.log
+# Log files
+*.log*
+
+# huksy
+.husky
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+
