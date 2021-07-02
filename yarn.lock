@@ -1849,7 +1849,7 @@
     semver "^7.3.5"
     tsutils "^3.21.0"
 
-"@typescript-eslint/experimental-utils@4.28.1":
+"@typescript-eslint/experimental-utils@4.28.1", "@typescript-eslint/experimental-utils@^4.0.1":
   version "4.28.1"
   resolved "https://registry.nlark.com/@typescript-eslint/experimental-utils/download/@typescript-eslint/experimental-utils-4.28.1.tgz?cache=0&sync_timestamp=1624900677420&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40typescript-eslint%2Fexperimental-utils%2Fdownload%2F%40typescript-eslint%2Fexperimental-utils-4.28.1.tgz#3869489dcca3c18523c46018b8996e15948dbadc"
   integrity sha1-OGlIncyjwYUjxGAYuJluFZSNutw=
@@ -3999,6 +3999,13 @@ eslint-config-prettier@^8.3.0:
   version "8.3.0"
   resolved "https://registry.nlark.com/eslint-config-prettier/download/eslint-config-prettier-8.3.0.tgz#f7471b20b6fe8a9a9254cc684454202886a2dd7a"
   integrity sha1-90cbILb+ipqSVMxoRFQgKIai3Xo=
+
+eslint-plugin-jest@^24.3.6:
+  version "24.3.6"
+  resolved "https://registry.nlark.com/eslint-plugin-jest/download/eslint-plugin-jest-24.3.6.tgz?cache=0&sync_timestamp=1619396609589&other_urls=https%3A%2F%2Fregistry.nlark.com%2Feslint-plugin-jest%2Fdownload%2Feslint-plugin-jest-24.3.6.tgz#5f0ca019183c3188c5ad3af8e80b41de6c8e9173"
+  integrity sha1-XwygGRg8MYjFrTr46AtB3myOkXM=
+  dependencies:
+    "@typescript-eslint/experimental-utils" "^4.0.1"
 
 eslint-plugin-prettier@^3.1.4:
   version "3.4.0"
